@@ -1,0 +1,58 @@
+[project]
+name = 'workspace_management'
+description = ''
+authors = []
+telemetry = true
+cache_dir = './.cache'
+requirements = []
+[contracts.helper_function]
+path = 'contracts/helper_function.clar'
+clarity_version = 3
+epoch = 3.1
+
+[contracts.premium_management]
+path = 'contracts/premium_management.clar'
+clarity_version = 3
+epoch = 3.1
+
+[contracts.space_query_info]
+path = 'contracts/space_query_info.clar'
+clarity_version = 3
+epoch = 3.1
+
+[contracts.space_recommendation]
+path = 'contracts/space_recommendation.clar'
+clarity_version = 3
+epoch = 3.1
+
+[contracts.space_registration]
+path = 'contracts/space_registration.clar'
+clarity_version = 3
+epoch = 3.1
+
+[contracts.user_activity_incentives]
+path = 'contracts/user_activity_incentives.clar'
+clarity_version = 3
+epoch = 3.1
+
+[contracts.user_registration]
+path = 'contracts/user_registration.clar'
+clarity_version = 3
+epoch = 3.1
+
+[contracts.workspace_management]
+path = 'contracts/workspace_management.clar'
+clarity_version = 3
+epoch = 3.1
+[repl.analysis]
+passes = ['check_checker']
+
+[repl.analysis.check_checker]
+strict = false
+trusted_sender = false
+trusted_caller = false
+callee_filter = false
+
+[repl.remote_data]
+enabled = false
+api_url = 'https://api.hiro.so'
